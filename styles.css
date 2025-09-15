@@ -25,6 +25,7 @@
 
 .project-tile {
   display: flex;
+  justify-content: stretch;
   width: 100%;
 }
 
