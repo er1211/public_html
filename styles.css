@@ -1,5 +1,6 @@
 html {
   background-color: rgba(0, 0, 0, 0.976);
+  box-sizing: border-box;
 }
 
 #navbar {
@@ -56,6 +57,7 @@ html {
   width: 95%;
   margin: 0px auto 10px auto;
   justify-content: space-between;
+  align-content: space-between;
 }
 
 .event-link {
@@ -67,4 +69,13 @@ html {
 #profile-section {
   color: white;
   font-size: 2rem;
+  margin: 10px 30px;
+}
+
+.fa-square-facebook {
+  color: rgba(44, 90, 255, 0.872);
+}
+
+.fa-youtube {
+  color: red;
 }
