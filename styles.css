@@ -28,12 +28,19 @@ html {
   border: 3px solid red;
 }
 
-h1 {
+.news-title {
   color: thistle;
+  position: absolute;
+  left: 3.5rem;
+  bottom: 2.5rem;
+  font-size: 15px;
 }
 
-p {
+.news {
   color: whitesmoke;
+  position: absolute;
+  left: 3rem;
+  bottom: 0.5rem;
 }
 
 .container {  display: grid;
@@ -120,7 +127,7 @@ p {
   background-position: center;
   width: 100%;
   height: 100vh;
-  background-size: 100%;
+  background-size: 90%;
   background-repeat: no-repeat;
 }
 
@@ -143,15 +150,25 @@ p {
     "ev5 ev6";
   width: 390px;
   height: 64em;
+  margin: 0 auto;
 }
 
-.rave { grid-area: rave; }
+.rave {
+  grid-area: rave;
+  color: whitesmoke;
+  margin: 0.3rem 0 0 -1rem;
+}
 
 .rave1 { grid-area: rave1; }
 
 .rave2 { grid-area: rave2; }
 
-.event { grid-area: event; }
+.event {
+  grid-area: event;
+  color: whitesmoke;
+  margin: 0.3rem 0 0 -1rem;
+
+}
 
 .event1 {  display: grid;
   grid-template-columns: 7em 7em;
