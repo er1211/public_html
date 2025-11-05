@@ -9,6 +9,9 @@ html {
   display: flex;
   justify-content: flex-end;
   flex-direction: row;
+  position: sticky;
+  top: 0;
+  right: 1rem;
 }
 
 #navbar a {
